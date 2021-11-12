@@ -1,0 +1,390 @@
+@media screen and (max-width:480px) {
+    body{
+        background-color: #010711;
+    }
+    main{
+        max-width: 100%;
+        height: 100vh;
+        background-color: plum;
+        background: url(../src/assets/background-home-mobile.jpg) no-repeat center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .content{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        max-width: 90%;
+        height: auto;
+        margin:auto;
+        margin-top:10%
+    }
+
+    .content .first{
+        Font-family: Barlow Condensed;
+        Font-style: Regular;
+        Font-size: 16px;
+        Line-height: 19px;
+        Line-height: 100%;
+        text-align: Center;
+        color: rgba(208, 214, 249, 1);
+    }
+    .content h1{
+        Font-family: Bellefair;
+        Font-style: Regular;
+        Font-size: 80px;
+        Line-height: 100px;
+        Line-height: 109%;
+        text-align: Center;
+        color:#fff;
+    }
+    .content .last{
+        font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 18px;
+        Line-height: 25px;
+        Line-height: 139%;
+        text-align: Center;
+        Vertical-align: Top;
+        Fill: Solid;
+        color: #D0D6F9;
+    }
+    .circle-container{
+        max-width: 60%;
+        height:250px;
+        background-color:rgba(255, 255, 255, 0.301) ;
+        position: relative;
+        margin: auto;
+        border-radius: 50%;
+        visibility: hidden;
+        transition: all 0.5s linear;
+    }
+    .circle-container:hover{
+        visibility: visible;
+    }
+    .circle{
+        max-width: 80%;
+        margin: auto;
+        height: 200px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+        border-radius: 50%;
+        visibility: visible;
+    }
+    
+    .explore{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 20px;
+        Line-height: 23px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: rgba(11, 13, 23, 1);
+        padding-top: 40%;
+        Letter-spacing: 1.25px;
+    }
+    /* DESTINATION*/
+    .destination{
+        max-width: 100%;
+        height: 100vh;
+        background: url(../src/assets/background-destination-mobile.jpg) no-repeat center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
+    .title{
+        color: white;
+        width: 100%;
+        margin: auto;
+    }
+    .title p{
+        font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Font-size: 18px;
+        text-transform: uppercase;
+        Line-height: 19px;
+        Line-height: 100%;
+        text-align: center;
+        Vertical-align: Top;
+        Letter-spacing: 2.7px;
+    }
+    .one{
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Bold;
+        Font-size: 18px;
+        Line-height: 19px;
+        Line-height: 100%;
+        text-align: Left;
+        Letter-spacing: 2.7px;
+        padding-right: 2%;
+        Opacity: 25%;
+    }
+    .planet-container{
+        max-width: 137px;
+        margin: auto;
+        height: 137px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -30%;
+        bottom: 0;
+    }
+    .planet-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .lid{
+        margin-top: 60%;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        list-style: none;
+        max-width: 70%;
+        margin-left: 15%;
+    }
+    .lid li{
+        font-size: 18px;
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Line-height: 17px;
+        Line-height: 100%;
+        text-align: Left;
+        Vertical-align: Top;
+        Letter-spacing: 2.36px;
+        color:#D0D6F9;
+        transition: all .5s linear;
+    }
+    .lid li:hover{
+        color: white;
+    }
+
+    .container{
+        max-width:80%;
+        height:auto;
+        margin: auto;
+    }
+    .name{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 2em;
+        Line-height: 64px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #fff;
+    }
+    .name2{
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Font-size: 15px;
+        Line-height: 25px;
+        Line-height: 139%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #D0D6F9;
+    }
+    .avg{
+        Font-family: 'Barlow Condensed' , sans-serif;
+        Font-style: Regular;
+        Font-size: 14px;
+        Line-height: 17px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        Letter-spacing: 2.36px;
+        color: #D0D6F9;
+    }
+    .avg h1{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 28px;
+        Line-height: 32px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #fff;
+    }
+    .travel{
+        Font-family: 'Barlow Condensed' , sans-serif;
+        Font-style: Regular;
+        Font-size: 14px;
+        Line-height: 17px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        Letter-spacing: 2.36px;
+        color: #D0D6F9;
+    }
+    .travel h1{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 28px;
+        Line-height: 32px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #fff;
+    }
+    /*CREW*/
+    .crew{
+        max-width: 100%;
+        height: 100vh;
+        background: url(../src/assets/background-crew-mobile.jpg) no-repeat center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
+    .meet{
+        max-width: 80%;
+        margin: auto;
+        color: #fff;
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Font-size: 18px;
+        Line-height: 19px;
+        Line-height: 100%;
+        Vertical-align: Top;
+        Letter-spacing: 2.7px;
+    }
+    .crew-container{
+        max-width: 90%;
+        margin: auto;
+        height: 323px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -30%;
+        bottom: 0;
+        margin-top: 100%;
+    }
+    .crew-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-bottom: 1px solid #fff;
+    }
+    .whiteDot{
+        margin-top: 110%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        list-style: none;
+        max-width: 70%;
+        margin-left: 12%;
+    }
+    .whiteDot li{
+        width: 15px;
+        height: 15px;
+        background-color: grey;
+        border-radius: 50%;
+        transition: all .5s linear;
+    }
+    .whiteDot li:hover{
+        color: #fff;
+    }
+    .dotted.activate{
+        background-color: #fff;
+    }
+    .rank p{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 16px;
+        Line-height: 18px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: rgb(221, 206, 206);
+    }
+    .rank h1{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 24px;
+        Line-height: 28px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: white;
+        text-transform: uppercase;
+    }
+    .about{
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Font-size: 15px;
+        Line-height: 25px;
+        Line-height: 139%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #D0D6F9;
+        max-width: 60%;
+        margin: auto;
+    }
+    /*Technoogy*/
+    .technology{
+        max-width: 100%;
+        height: 100vh;
+        background: url(../src/assets/background-technology-mobile.jpg) no-repeat center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
+    .tech-container{
+        max-width: 100%;
+        margin: auto;
+        height: 223px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -30%;
+        bottom: 0;
+        margin-top: 100%;
+    }
+    .tech-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .techList{
+        margin-top: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        list-style: none;
+        max-width: 70%;
+        margin-left: 12%;
+    }
+    .numb{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: solid 1px grey;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 2em;
+        transition: all .5s linear;
+    }
+    .numb:hover{
+        color: white;
+    }
+    li{
+        text-align: center;
+        vertical-align: middle;
+        line-height: 70px;
+    }
+    .numb.actively{
+        background: white;
+        color: black;
+    }
+}
