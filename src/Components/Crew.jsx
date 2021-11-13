@@ -65,6 +65,24 @@ const Crew = () => {
                 <h1>{d.name}</h1>
             </div>))}
 
+            <div className="flex">
+                <div className="flex-top">
+                {crew.map((d)=>(<div className="flex-rank">
+                <p>{d.rank}</p>
+                <h1>{d.name}</h1>
+                </div>))}
+
+                {crew.map((d)=>(<div className="flex-about">
+                <p>{d.word}</p>
+                </div>))}
+
+                <div className=" flex-whiteDot">
+                {List.map((d)=>(<CrewList text={d.text} id={d.id} active={selected === d.id} setSelected={setSelected} />))}
+                </div>
+                </div>
+      
+            </div>
+
             {crew.map((d)=>(<div className="about">
                 <p>{d.word}</p>
             </div>))}

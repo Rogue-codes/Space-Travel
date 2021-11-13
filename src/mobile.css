@@ -54,7 +54,7 @@
         color: #D0D6F9;
     }
     .circle-container{
-        max-width: 60%;
+        max-width: 250px;
         height:250px;
         background-color:rgba(255, 255, 255, 0.301) ;
         position: relative;
@@ -67,7 +67,7 @@
         visibility: visible;
     }
     .circle{
-        max-width: 80%;
+        max-width: 200px;
         margin: auto;
         height: 200px;
         position: absolute;
@@ -329,6 +329,15 @@
         color: #D0D6F9;
         max-width: 60%;
         margin: auto;
+    }
+    .flex{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .destination-desk{
+        display: none;
     }
     /*Technoogy*/
     .technology{

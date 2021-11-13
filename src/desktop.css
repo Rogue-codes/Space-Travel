@@ -1,0 +1,325 @@
+@media screen and (min-width:992px) {
+    .content{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        max-width: 90%;
+        height: auto;
+        margin:auto;
+        margin-top:10%;
+        display: none;
+    }
+    .content .first{
+        Font-family: Barlow Condensed;
+        Font-style: Regular;
+        Font-size: 1.3em;
+        Line-height: 19px;
+        /* Line-height: 100%; */
+        text-align: Center;
+        color: rgba(208, 214, 249, 1);
+    }
+    .content h1{
+        Font-family: Bellefair;
+        Font-style: Regular;
+        Font-size: 150px;
+        Line-height: 150px;
+        /* Line-height: 109%; */
+        text-align: Center;
+        color:#fff;
+    }
+    .content .last{
+        font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 16px;
+        Line-height: 28px;
+        max-width: 444px;
+        margin: auto;
+        Line-height: 148%;
+        text-align: left;
+        Vertical-align: Top;
+        Fill: Solid;
+        color: #D0D6F9;
+    }
+    .desktop{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .desk-content{
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        max-width: 90%;
+        height: auto;
+        margin:auto;
+        margin-top:10%;
+        margin-left: 20%;
+    }
+    .desk-first{
+        Font-family: Barlow Condensed;
+        Font-style: Regular;
+        Font-size: 2em;
+        Line-height: 28px;
+        text-align: Center;
+        color: rgba(208, 214, 249, 1);
+    }
+    .desk-content h1{
+        Font-family: Bellefair;
+        Font-style: Regular;
+        Font-size: 150px;
+        Line-height: 150px;
+        text-align: Center;
+        color:#fff;
+    }
+    .desk-last{
+        font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size:22px;
+        Line-height: 28px;
+        max-width: 444px;
+        margin: auto;
+        Line-height: 148%;
+        text-align: left;
+        Vertical-align: Top;
+        Fill: Solid;
+        color: #D0D6F9;
+    }
+    .desk-circle{
+        max-width: 300px;
+        margin: auto;
+        height: 300px;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+        margin-left: 70%;
+        margin-top: 20%;
+        border-radius: 50%;
+        transition: all .5s;
+    }
+    .desk-circle:hover{
+        box-shadow: 4px 4px 58px #f9e0b7;
+    }
+    .desk-explore{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 32px;
+        Line-height: 23px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: rgba(11, 13, 23, 1);
+        padding-top: 40%;
+        Letter-spacing: 1.25px;
+    }
+    main{
+        max-width: 100%;
+        height: 100vh;
+        background-color: plum;
+        background: url(../src/assets/background-home-desktop.jpg) no-repeat center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .circle-container{
+        display: none;
+    }
+    /* DESTINATION*/
+    .destination{
+        max-width: 100%;
+        height: 100vh;
+        background: url(../src/assets/background-destination-desktop.jpg) no-repeat center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
+    .title{
+        color: white;
+        width: 100%;
+        margin: auto;
+    }
+    .title p{
+        font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Font-size: 18px;
+        text-transform: uppercase;
+        Line-height: 19px;
+        Line-height: 100%;
+        text-align: left;
+        padding-left: 10%;
+        Vertical-align: Top;
+        Letter-spacing: 2.7px;
+    }
+    .one{
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Bold;
+        Font-size: 18px;
+        Line-height: 19px;
+        Line-height: 100%;
+        text-align: Left;
+        Letter-spacing: 2.7px;
+        padding-right: 2%;
+        Opacity: 25%;
+    }
+    .planet-container{
+        max-width: 337px;
+        margin: auto;
+        height: 337px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -30%;
+        bottom: 0;
+        display: none;
+    }
+    .lid{
+        margin-top: 60%;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        list-style: none;
+        max-width: 70%;
+        margin-left: 15%;
+        display: none;
+    }
+    .container{
+        max-width:80%;
+        height:auto;
+        margin: auto;
+        display: none;
+    }
+    .desk-planet-container{
+        max-width: 337px;
+        margin: auto;
+        height: 337px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -30%;
+        bottom: 0;
+        background-color: hotpink;
+        margin-left: 20%;
+    }
+    .desk-planet-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .desk-lid{
+        margin-top: 20%;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        list-style: none;
+        max-width: 70%;
+        margin-left: 15%;
+    }
+    .desk-lid li{
+        font-size: 20px;
+        width: 35px;
+        margin-left: 80px ;
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Line-height: 17px;
+        Line-height: 100%;
+        text-align: Left;
+        Vertical-align: Top;
+        Letter-spacing: 2.36px;
+        color:#D0D6F9;
+        transition: all .5s linear;
+    }
+    .desk-lid li:hover{
+        color: white;
+    }
+    .desk-container{
+        max-width:80%;
+        height:auto;
+        margin: auto;
+        background-color: indigo;
+        margin-right: 20%;
+    }
+    .desk-name{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 3em;
+        Line-height: 64px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #fff;
+    }
+    .desk-name2{
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Font-size: 20px;
+        Line-height: 32px;
+        Line-height: 148%;
+        max-width: 448px;
+        margin: auto;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #D0D6F9;
+    }
+    .desk-avg{
+        Font-family: 'Barlow Condensed' , sans-serif;
+        Font-style: Regular;
+        Font-size: 14px;
+        Line-height: 17px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        Letter-spacing: 2.36px;
+        color: #D0D6F9;
+    }
+    .desk-avg h1{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 28px;
+        Line-height: 32px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #fff;
+    }
+    .desk-travel{
+        Font-family: 'Barlow Condensed' , sans-serif;
+        Font-style: Regular;
+        Font-size: 14px;
+        Line-height: 17px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        Letter-spacing: 2.36px;
+        color: #D0D6F9;
+    }
+    .desk-travel h1{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 28px;
+        Line-height: 32px;
+        Line-height: 100%;
+        text-align: Center;
+        Vertical-align: Top;
+        color: #fff;
+    }
+    .deskbottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .destination-desk{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: indianred;
+    }
+    
+    
+}

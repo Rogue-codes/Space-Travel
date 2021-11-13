@@ -74,6 +74,39 @@ useEffect(()=>{
                     <h1>{p.time}</h1>
                 </div>
             </div>))}
+
+            <div className="destination-desk">
+                {planet.map((t)=>(<div className="desk-planet-container">
+                    <img src={t.img} alt={t.head} />
+                </div>))}
+
+                <div className="desky">
+                    <div className="desk-lid">
+                        {data.map((d)=>(<List title={d.title} active={selected === d.id} setSelected={setSelected} id={d.id} />))}
+                    </div>
+
+                    {planet.map((p)=>(<div className="desk-container">
+                        <div className="desk-name">
+                            <h1>{p.head}</h1>
+                        </div>
+
+                        <div className="desk-name2">
+                            <p>{p.bod}</p>
+                        </div>
+                        <div className="deskbottom">
+                            <div className="desk-avg">
+                                <p>AVG. DISTANCE</p>
+                                <h1>{p.dist}</h1>
+                            </div>
+
+                            <div className="desk-travel">
+                                <p>EST. TRAVEL TIME</p>
+                                <h1>{p.time}</h1>
+                            </div>
+                        </div>
+                    </div>))}
+                </div>
+            </div>
         </div>
     )
 }
