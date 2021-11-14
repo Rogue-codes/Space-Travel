@@ -354,13 +354,16 @@
     .tab-about{
         display: none;
     }
-    .desk-tech-container{
+    .desktech-container{
+        display: none;
+    }
+    .desktechList{
+        display: none;
+    }
+    .deskrank{
         display: none;
     }
     .desk-techList{
-        display: none;
-    }
-    .desk-rank{
         display: none;
     }
     /*Technoogy*/
