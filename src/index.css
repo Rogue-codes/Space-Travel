@@ -89,9 +89,12 @@ a:hover{
 @media screen and (max-width:480px) {
   .icon{
     display: block;
-    margin-left: 65%;
+    margin-left: 60%;
     position: absolute;
-    margin-top: -6%;
+    margin-top: -10%;
+  }
+  .logo{
+    margin-top: -10%;
   }
   .navItems{
     display: none;
