@@ -18,7 +18,6 @@
     Font-style: Regular;
     Font-size: 1.3em;
     Line-height: 19px;
-    /* Line-height: 100%; */
     text-align: Center;
     color: rgba(208, 214, 249, 1);
 }
@@ -27,7 +26,6 @@
     Font-style: Regular;
     Font-size: 150px;
     Line-height: 150px;
-    /* Line-height: 109%; */
     text-align: Center;
     color:#fff;
 }
@@ -268,13 +266,6 @@
     border-bottom: 1px solid #fff;
 }
 .whiteDot{
-    margin-top: 65%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    list-style: none;
-    max-width: 70%;
-    margin-left: 12%;
     display: none;
 }
 .whiteDot li{
@@ -291,40 +282,13 @@
     background-color: #fff;
 }
 .rank p{
-    Font-family: 'Bellefair', serif;
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 18px;
-    Line-height: 100%;
-    text-align: Center;
-    Vertical-align: Top;
-    color: rgb(221, 206, 206);
     display: none;
 }
 .rank h1{
-    Font-family: 'Bellefair', serif;
-    Font-style: Regular;
-    Font-size: 24px;
-    Line-height: 28px;
-    Line-height: 100%;
-    text-align: Center;
-    Vertical-align: Top;
-    color: white;
-    text-transform: uppercase;
     display: none;
 }
 .about{
-    Font-family: 'Barlow Condensed', sans-serif;
-    Font-style: Regular;
-    Font-size: 15px;
-    Line-height: 25px;
-    Line-height: 139%;
-    text-align: Center;
-    Vertical-align: Top;
-    color: #D0D6F9;
-    max-width: 60%;
-    margin: auto;
-    display: none;
+display: none;
 }
 .flex-rank p{
     Font-family: 'Bellefair', serif;
@@ -383,6 +347,9 @@
     display: none;
 }
 .destination-desk{
+    display: none;
+}
+.desktopcrew{
     display: none;
 }
 }

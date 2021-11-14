@@ -93,6 +93,7 @@ useEffect(()=>{
                         <div className="desk-name2">
                             <p>{p.bod}</p>
                         </div>
+                        <hr />
                         <div className="deskbottom">
                             <div className="desk-avg">
                                 <p>AVG. DISTANCE</p>

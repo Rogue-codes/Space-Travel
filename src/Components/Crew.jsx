@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import CrewList from './CrewList'
 import Nav from './Nav'
 import { One, Two, Three, Four } from './CrewData'
+import '../desktop.css'
 
 const Crew = () => {
     const [selected, setSelected] = useState("one")
@@ -64,13 +65,18 @@ const Crew = () => {
                 <p>{d.rank}</p>
                 <h1>{d.name}</h1>
             </div>))}
+            {crew.map((d)=>(<div className="about">
+                <p>{d.word}</p>
+            </div>))}
 
+            {/* tablet view */}
             <div className="flex">
                 <div className="flex-top">
                 {crew.map((d)=>(<div className="flex-rank">
                 <p>{d.rank}</p>
                 <h1>{d.name}</h1>
                 </div>))}
+
 
                 {crew.map((d)=>(<div className="flex-about">
                 <p>{d.word}</p>
@@ -80,12 +86,34 @@ const Crew = () => {
                 {List.map((d)=>(<CrewList text={d.text} id={d.id} active={selected === d.id} setSelected={setSelected} />))}
                 </div>
                 </div>
-      
             </div>
 
-            {crew.map((d)=>(<div className="about">
-                <p>{d.word}</p>
-            </div>))}
+            <div className="desktopcrew">
+                <div className="desk-right">
+                    {crew.map((d)=>(<div className="desk-rank">
+                    <p>{d.rank}</p>
+                    <h1>{d.name}</h1>
+                    </div>))}
+                    {crew.map((d)=>(<div className="desk-about">
+                    <p>{d.word}</p>
+                    </div>))}
+                    <div className="desk-whiteDot">
+                    {List.map((d)=>(<CrewList text={d.text} id={d.id} active={selected === d.id} setSelected={setSelected} />))}
+                    </div>
+
+                   
+                </div>
+
+                <div className="desk-left">
+                        {crew.map((d)=>(<div className="desk-crew-container">
+                        <img src={d.pic} alt='' />
+                        </div>))}
+                </div>
+            </div>
+
+            
+
+
         </div>
     )
 }

@@ -171,61 +171,32 @@
         Opacity: 25%;
     }
     .planet-container{
-        max-width: 337px;
-        margin: auto;
-        height: 337px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: -30%;
-        bottom: 0;
         display: none;
     }
     .lid{
-        margin-top: 60%;
-        display: flex;
-        justify-content: space-around;
-        flex-flow: row wrap;
-        list-style: none;
-        max-width: 70%;
-        margin-left: 15%;
         display: none;
     }
     .container{
-        max-width:80%;
-        height:auto;
-        margin: auto;
         display: none;
     }
     .desk-planet-container{
-        max-width: 337px;
-        margin: auto;
-        height: 337px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: -30%;
-        bottom: 0;
-        background-color: hotpink;
-        margin-left: 20%;
+       width: 445px;
+       height: 445px;
     }
     .desk-planet-container img{
         width: 100%;
         height: 100%;
     }
     .desk-lid{
-        margin-top: 20%;
         display: flex;
         justify-content: center;
         flex-flow: row wrap;
         list-style: none;
-        max-width: 70%;
-        margin-left: 15%;
     }
     .desk-lid li{
         font-size: 20px;
         width: 35px;
-        margin-left: 80px ;
+        margin-left: 40px ;
         Font-family: 'Barlow Condensed', sans-serif;
         Font-style: Regular;
         Line-height: 17px;
@@ -235,91 +206,192 @@
         Letter-spacing: 2.36px;
         color:#D0D6F9;
         transition: all .5s linear;
+        cursor: pointer;
     }
     .desk-lid li:hover{
         color: white;
     }
+    .desky{
+        width: 455px;
+        height: 472px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .desk-container{
-        max-width:80%;
-        height:auto;
-        margin: auto;
-        background-color: indigo;
-        margin-right: 20%;
+        width: 100%;
     }
     .desk-name{
-        Font-family: 'Bellefair', serif;
+        Font-family: Bellefair;
         Font-style: Regular;
-        Font-size: 3em;
-        Line-height: 64px;
+        Font-size: 70px;
+        Line-height: 115px;
         Line-height: 100%;
-        text-align: Center;
+        text-align:  Left;
         Vertical-align: Top;
-        color: #fff;
+        color: white;
     }
     .desk-name2{
         Font-family: 'Barlow Condensed', sans-serif;
         Font-style: Regular;
-        Font-size: 20px;
+        Font-size: 22px;
         Line-height: 32px;
         Line-height: 148%;
-        max-width: 448px;
-        margin: auto;
-        text-align: Center;
+        text-align:  Left;
         Vertical-align: Top;
         color: #D0D6F9;
     }
     .desk-avg{
-        Font-family: 'Barlow Condensed' , sans-serif;
+        Font-family: 'Barlow Condensed', sans-serif;
         Font-style: Regular;
         Font-size: 14px;
         Line-height: 17px;
         Line-height: 100%;
-        text-align: Center;
+        text-align: Left;
         Vertical-align: Top;
         Letter-spacing: 2.36px;
         color: #D0D6F9;
     }
     .desk-avg h1{
-        Font-family: 'Bellefair', serif;
+        Font-family: Bellefair;
         Font-style: Regular;
         Font-size: 28px;
         Line-height: 32px;
         Line-height: 100%;
-        text-align: Center;
+        text-align: Left;
         Vertical-align: Top;
-        color: #fff;
+        color: white;
     }
     .desk-travel{
-        Font-family: 'Barlow Condensed' , sans-serif;
+        Font-family: 'Barlow Condensed', sans-serif;
         Font-style: Regular;
         Font-size: 14px;
         Line-height: 17px;
         Line-height: 100%;
-        text-align: Center;
+        text-align: Left;
         Vertical-align: Top;
         Letter-spacing: 2.36px;
         color: #D0D6F9;
     }
     .desk-travel h1{
-        Font-family: 'Bellefair', serif;
+        Font-family: Bellefair;
         Font-style: Regular;
         Font-size: 28px;
         Line-height: 32px;
         Line-height: 100%;
-        text-align: Center;
+        text-align: Left;
         Vertical-align: Top;
-        color: #fff;
+        color: white;
     }
     .deskbottom{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .destination-desk{
         display: flex;
-        flex-direction: row-reverse;
-        background-color: indianred;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 10%;
     }
-    
-    
+    /*crew*/
+    .crew{
+        max-width: 100%;
+        height: 100vh;
+        background: url(../src/assets/background-crew-desktop.jpg) no-repeat center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
+    .flex{
+        display: none;
+    }
+    .crew-container{
+        display: none;
+    }
+    .desktopcrew{
+        max-width: 100%;
+        margin: auto;
+        height:auto;
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: row wrap;
+
+    }
+    .desk-crew-container{
+        width: 568px;
+        height: 712px;
+    }
+    .desk-crew-container img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .desk-right{
+        height: 500px;
+        width: 500px;
+        float: left;
+    }
+    .desk-rank p{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 32px;
+        Line-height: 37px;
+        Line-height: 100%;
+        text-align: left;
+        Vertical-align: Top;
+        color: rgb(221, 206, 206);
+    }
+    .desk-rank h1{
+        Font-family: 'Bellefair', serif;
+        Font-style: Regular;
+        Font-size: 56px;
+        Line-height: 64px;
+        Line-height: 100%;
+        text-align: left;
+        Vertical-align: Top;
+        color: white;
+        text-transform: uppercase;
+    }
+    .desk-about{
+        Font-family: 'Barlow Condensed', sans-serif;
+        Font-style: Regular;
+        Font-size: 30px;
+        Line-height: 32px;
+        Line-height: 139%;
+        text-align: left;
+        Vertical-align: Top;
+        color: #D0D6F9;
+    }
+    .desk-whiteDot{
+        margin-top: 5%;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: row wrap;
+        list-style: none;
+    }
+    .desk-whiteDot li{
+        width: 25px;
+        height: 25px;
+        margin-left: 20px ;
+        background-color: grey;
+        border-radius: 50%;
+        transition: all .5s linear;
+        cursor: pointer;
+    }
+    .desk-whiteDot li:hover{
+        color: #fff;
+    }
+    .meet{
+        font-size: 25px;
+    }
+    .one{
+        font-size: 25px;
+    }
 }

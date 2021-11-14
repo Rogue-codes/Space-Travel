@@ -58,7 +58,7 @@ main{
 }
 .icon{
   color:white;
-  font-size: 30px;
+  font-size: 50px;
   display: none;
 }
 .close{
@@ -77,6 +77,9 @@ a:hover{
   padding-bottom: 20%;
   border-bottom: solid 3px white;
 }
+.logo a:hover{
+  border-bottom: none;
+}
 .firstAnimate{
   position: fixed;
   margin-left: 0;
@@ -86,9 +89,9 @@ a:hover{
 @media screen and (max-width:480px) {
   .icon{
     display: block;
-    margin-left: 60%;
+    margin-left: 65%;
     position: absolute;
-    margin-top: -4%;
+    margin-top: -6%;
   }
   .navItems{
     display: none;
