@@ -342,6 +342,27 @@
     .desktopcrew{
         display: none;
     }
+    .tab-tech-container{
+        display: none;
+    }
+    .tab-techList{
+        display: none;
+    }
+    .tab-rank{
+        display: none;
+    }
+    .tab-about{
+        display: none;
+    }
+    .desk-tech-container{
+        display: none;
+    }
+    .desk-techList{
+        display: none;
+    }
+    .desk-rank{
+        display: none;
+    }
     /*Technoogy*/
     .technology{
         max-width: 100%;
@@ -369,8 +390,9 @@
         object-fit: contain;
     }
     .techList{
-        margin-top: 80%;
+        margin-top: 60%;
         display: flex;
+        gap: 3px;
         justify-content: space-evenly;
         flex-flow: row wrap;
         list-style: none;
@@ -378,13 +400,14 @@
         margin-left: 12%;
     }
     .numb{
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         border: solid 1px grey;
         text-align: center;
         margin-top: 10%;
-        font-size: 2em;
+        line-height: 50px;
+        font-size: 1em;
         transition: all .5s linear;
     }
     .numb:hover{

@@ -56,6 +56,52 @@ const Technology = () => {
             {tech.map((d)=>(<div className="about">
                 <p>{d.p}</p>
             </div>))}
+
+            {/* <div className="tech-list">
+                <div className="desk-techList">
+                    {List.map((d)=>(<TechList text={d.text} id={d.id} active={selected === d.id} setSelected={setSelected} set />))}
+                </div>
+            </div> */}
+
+            {tech.map((d)=>(<div className="tab-tech-container">
+                <img src={d.photo} alt={d.h1} />
+                    </div>))}
+                <div className="tab-techList">
+                {List.map((d)=>(<TechList text={d.text} id={d.id} active={selected === d.id} setSelected={setSelected} set />))}
+                </div>
+                {tech.map((d)=>(<div className="tab-rank">
+                <p>{d.h3}</p>
+                <h1>{d.h1}</h1>
+                </div>))}
+                {tech.map((d)=>(<div className="tab-about">
+                <p>{d.p}</p>
+            </div>))}
+
+            <div className="desktop-tech">
+                <div className="desk-left">
+                    <div className="desk-techList">
+                    {List.map((d)=>(<TechList text={d.text} id={d.id} active={selected === d.id} setSelected={setSelected} set />))}
+                    </div>
+                    <div className="cont">
+                    {tech.map((d)=>(<div className="desktech-rank">
+                    <p>{d.h3}</p>
+                    <h1>{d.h1}</h1>
+                    </div>))}
+                    {tech.map((d)=>(<div className="desktech-about">
+                    <p>{d.p}</p>
+                    </div>))}
+                    </div>
+                </div>
+
+                <div className="desk-right">
+                    {tech.map((d)=>(<div className="desktech-container">
+                    <img src={d.photo2} alt={d.h1} />
+                    </div>))}
+                </div>
+            </div>
+
+        
+
         </div>
     )
 }
